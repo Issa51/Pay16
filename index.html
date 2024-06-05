@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7e2a69d5dd.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <style type="text/css" id="dcoder_stylesheet">
+        @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color;
+            position:fixed;
+
+        }
+
+        ba {
+            font-family: "Archivo Black", sans-serif;
+            font-size:11px;
+        }
+        input{
+            width:89%;
+            height:40px;
+            border-radius:5px;
+            border:1px solid #777;
+            outline:none;
+        }
+
+        #button1 {
+            background-color:green;
+            margin-top:2%;
+            width:90%;
+            height:40px;
+            font-family: "Archivo Black", sans-serif;
+            color:white;
+            border-radius:3px;
+            border:none;
+            cursor:pointer;
+
+        }
+
+        #button2 {
+            background-color:blue;
+            color:white;
+            width:70%;
+            height:42px;
+            border:none;
+            border-radius:8px;
+            cursor:pointer;
+            }
+            .button{
+            margin-top:-13%;
+            margin-left:68%;
+        }
+
+        .cadre {
+            border: 1px solid #777;
+            width: 89%;
+            height:40px;
+            border-radius:5px;
+            background-color:white;
+        }
+
+        .add {
+            display: none;
+            font-size:10px;
+            
+        }
+
+        .amg img {
+            width: 100px;
+        }
+
+        .amg {
+            display: none;
+            margin-top:-22%;
+            margin-left:24%;
+        }
+
+        .alert1 {
+            display: none;
+            color:red;
+            font-family: "Poppins", sans-serif;
+            font-size:8px;
+            margin-top:-35%;
+            margin-left:2%;
+            position:fixed;
+        }
+
+        .alert2 {
+            display: none;
+            
+        }
+        nav{
+            margin-top:%;
+            margin-left:10%;
+        }
+       .dex{
+           background-color:deepskyblue;
+           width:89%;
+           height:299px;
+           padding:5%;
+           margin-top:-5%;
+           
+       } 
+       .fex{
+           background-color:white;
+           width:100%;
+           height:60px;
+           border-radius:30px;
+           position :relative; 
+       }
+       .text{
+           color:red;
+           font-size:11px;
+           margin-left:10%;
+           margin-right:3%;
+           margin-top:5%;
+           
+       }
+       
+        .gmg img{
+            
+    width:30px;
+    cursor:pointer;
+    margin-left:2%;
+}
+.menu{
+    display:none;
+    background-color: lightgrey;
+    padding: 10px;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.close{
+    float: right;
+    cursor: pointer;
+}
+at{
+ font-family: "Archivo Black", sans-serif;   
+}
+ad{
+ font-family: "Poppins", sans-serif; 
+    
+}
+a{
+    text-decoration:none
+}
+.zmg{
+    margin-left:5%;
+    position: 
+    text-align:center;
+    background-color:white;
+    position:relative;
+}
+.zmg img{
+    width:100px;
+    display:;
+}
+.confi img{
+    width:50px;
+}
+.confi{
+  display:none; 
+}
+ .wmg img{
+  width:50px;   
+ } 
+ a{
+     text-decoration:none;
+ } 
+ i{
+     color:white;
+     font
+ } 
+ .wmg img{
+  width:50px;   
+  margin-left:5%;
+ } 
+ a{
+     text-decoration:none;
+ }  
+ #button3{
+     background-color:rgb(255,193,7);
+            margin-top:2%;
+            width:90%;
+            height:40px;
+            font-family: "Archivo Black", sans-serif;
+            color:black;
+            border-radius:3px;
+            border:none;
+            cursor:pointer;
+            margin-left:6%;
+ } 
+ .text2{
+     color:white;
+     font-family: "Archivo Black", sans-serif;
+     font-size:15px;
+     margin-left:5%;
+ } 
+ .text4{
+     color:white;
+     font-size:13px;
+     margin-left:5%;
+ }      
+    </style>
+</head>
+
+<body>
+<div class="gmg"><img src="https://i.postimg.cc/9Q7v1jJr/1200px-Hamburger-icon-svg.png"></div>
+<div class="menu">
+    <span class="close">X</span>
+    <at>Menu</at><br>
+    <a href="mailto: diamond.supp0rt.fr@gmail.com"><ad>Nous contacter</ad></a><br>
+    <a href="mailto: diamond.supp0rt.fr@gmail.com"><ad>Signalé un problème</ad></a><br>
+    <a href="mailto: diamond.supp0rt.fr@gmail.com"><ad>Devenir sponsor</ad><br>
+</div></a>
+<div class="zmg">
+    <img src="https://i.postimg.cc/J41d3J5k/bitcoin-5000584-4164932.gif">
+</div>
+<nav>
+    <ba>Entrez votre IBAN</ba>
+    <div class="input">
+        <input type="text" placeholder="IBAN">
+    </div>
+    <button type="button" id="button1">GO !</button>
+    <br>
+    <ba>BTC adress</ba>
+    <div class="cadre">
+        <div class="add">1DNYSXoXQTPTRFMFm9HyxxvDFPtYAw7Dcx</div>
+    </div>
+    <div class="button">
+        <button type="button" id="button2">Copy</button>
+    </div>
+    <div class="amg">
+        <img src="https://i.postimg.cc/g0VnhtL3/loader.gif">
+    </div>
+    <div class="alert1">Make sure you enter the valid information</div>
+    <div class="alert2">Erreur</div>
+</nav>
+<div class="fex"><div class="text">Attention: Si vous mettez des informations invalident vous risquez de perdre vos crypto ou équivalent.</div></div>
+<div class="dex"><br>
+<div class="text2">Souhaitez vous acheter les crypto ?</div>
+<div class="text4">Rendez vous la vie facile avec trustwallet, vous pouvez acheter, envoyer et recevoir les cryptos facilement avec trustwallet. Cliquez sur le bouton ci-dessous pour commencer une meilleure expérience.</div>
+<div class="wmg">
+<img src="https://i.postimg.cc/xTYBsBnq/118089.png">
+</div>
+<a href="https://trustwallet.com/fr"><button type="button" id="button3">Achetez dès maintenant</button></a>
+</div>
+</body>
+<script>
+    document.getElementById("button1").addEventListener("click", function() {
+        var input = document.querySelector("input[type='text']");
+        var iban = input.value.trim();
+
+        if (iban.length >= 20 && /^[0-9a-zA-Z]+$/.test(iban)) {
+            document.querySelector(".amg").style.display = "block";
+
+            setTimeout(function() {
+                document.querySelector(".amg").style.display = "none";
+                document.querySelector(".add").style.display = "block";
+            }, 5000);
+        } else {
+            document.querySelector(".alert1").style.display = "block";
+        }
+    });
+
+    document.getElementById("button2").addEventListener("click", function() {
+        var textToCopy = document.querySelector(".add").innerText;
+
+        var dummyElement = document.createElement("textarea");
+        dummyElement.value = textToCopy;
+        document.body.appendChild(dummyElement);
+
+        dummyElement.select();
+        document.execCommand("copy");
+
+        document.body.removeChild(dummyElement);
+    });
+    
+    document.querySelector('.gmg').addEventListener('click', function(){
+    document.querySelector('.menu').style.display = 'block';
+});
+
+document.querySelector('.close').addEventListener('click', function(){
+    document.querySelector('.menu').style.display = 'none';
+});
+
+document.querySelector('.gmg').addEventListener('click', function(){
+    document.querySelector('.menu').style.display = 'block';
+});
+
+document.querySelector('.close').addEventListener('click', function(){
+    document.querySelector('.menu').style.display = 'none';
+});
+
+document.getElementById("dex").addEventListener("click", function() {
+  document.querySelector(".confi").style.display = "block";
+});
+
+
+</script>
+
+</html>
